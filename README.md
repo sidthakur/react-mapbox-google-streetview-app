@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# React MapBox Google Street View App
+
+This is a starter app for using MapBox GL v2+ with React 17+ (making use of functional components, context and hooks).
+
+![](screenshots/basic_mapbox_map_loading.png)
+
+You will need MapBox Access Token for using this app. 
+[MapBox Access Token Docs](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/)
+
+Add your MapBox token to file `src/credentials.js` as shown below.
+
+```javascript
+const CREDENTIALS = {
+    MAPBOX_ACCESS_TOKEN: "place-your-access-token-here",
+}
+
+export default CREDENTIALS;
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

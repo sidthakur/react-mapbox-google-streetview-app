@@ -25,3 +25,6 @@ yarn-error.log*
 # idea - webstorm
 /.idea/
 /.eslintcache
+
+# credential file
+/src/credentials.js
