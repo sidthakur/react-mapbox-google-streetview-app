@@ -4,6 +4,9 @@ This is a starter app for using MapBox GL v2+ with React 17+ (making use of func
 
 ![](screenshots/basic_mapbox_map_loading.png)
 
+![](screenshots/mapbox_map_and_autocomplete_search_bar.png)
+
+
 You will need MapBox Access Token for using this app. 
 [MapBox Access Token Docs](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/)
 
@@ -16,6 +19,16 @@ const CREDENTIALS = {
 
 export default CREDENTIALS;
 ```
+
+### Third party React components used
+
+#### MapBox Auto-complete Search Bar
+
+```shell script
+npm install react-mapbox-autocomplete --save
+```
+[Link to npm](https://www.npmjs.com/package/react-mapbox-autocomplete) | 
+[Link to github](https://github.com/localvore-today/react-mapbox-autocomplete#readme)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
