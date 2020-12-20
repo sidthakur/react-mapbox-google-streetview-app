@@ -6,11 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import {GlobalContextProvider} from "./GlobalContext";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <GlobalContextProvider>
-            <App/>
-        </GlobalContextProvider>
-    </React.StrictMode>,
+    <GlobalContextProvider>
+        <App/>
+    </GlobalContextProvider>
+    ,
     document.getElementById('root')
 );
 
